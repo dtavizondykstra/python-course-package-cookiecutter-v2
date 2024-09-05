@@ -23,7 +23,7 @@ def test_session_id() -> str:
     -------
     str
         A unique session ID.
-        
+
     """
     test_session_id = str(PROJECT_DIR.name) + str(uuid4())[:6]
     return test_session_id

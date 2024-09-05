@@ -16,7 +16,7 @@ from example_pkg.states_info import (
     ],
 )
 def test__is_city_capitol_of_state(city_name: str, state: str, is_capitol: bool):
-    """ Assert that `is_city_capitol_of_state()` returns the expected value."""
+    """Assert that `is_city_capitol_of_state()` returns the expected value."""
     assert is_city_capitol_of_state(city_name=city_name, state=state) == is_capitol
 
 
