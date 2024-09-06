@@ -1,3 +1,4 @@
 {
-    "repo_name": "enter-repo-name"
+    "repo_name": "enter-repo-name",
+    "package_import_name": "default-name"
 }
